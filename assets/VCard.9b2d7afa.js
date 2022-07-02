@@ -1,0 +1,1 @@
+import{_ as e,o as r,c as s,f as n}from"./app.152aa4c4.js";const d={},t={class:"v-card",border:"~ md:none",shadow:"md:sm md:hover:md",backdrop:"md:blur-md",bg:"light-200",transition:"~ shadow"};function a(o,c){return r(),s("div",t,[n(o.$slots,"default")])}var m=e(d,[["render",a]]);export{m as _};
