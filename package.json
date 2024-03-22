@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "@iconify/json": "^2.2.194",
-    "vitepress": "1.0.0"
+    "vitepress": "1.0.1"
   }
 }
