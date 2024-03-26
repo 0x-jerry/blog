@@ -45,7 +45,7 @@
   "dependencies": {
     "@0x-jerry/utils": "^2.1.1",
     "@iconify/json": "^2.2.194",
-    "@intlify/unplugin-vue-i18n": "^3.0.1",
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
     "@vite-pwa/vitepress": "^0.4.0",
     "@vueuse/core": "^10.9.0",
     "feed": "^4.2.2",
