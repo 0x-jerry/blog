@@ -41,7 +41,7 @@ importers:
         version: 4.1.2
       '@vueuse/core':
         specifier: ^10.10.0
-        version: 10.10.0(vue@3.4.27)
+        version: 10.10.1(vue@3.4.27)
       dayjs:
         specifier: ^1.11.11
         version: 1.11.11
@@ -1797,6 +1797,17 @@ packages:
       - '@vue/composition-api'
       - vue
 
+  /@vueuse/core@10.10.1(vue@3.4.27):
+    resolution: {integrity: sha512-8Vr8wxILdK+qfBjbngav8LVI+6UuM2TQCufRKMPz/GrpLHQ6dbY6kL5PLa9Eobq8JRrMaDyArPX9Jj18fMTPew==}
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 10.10.1
+      '@vueuse/shared': 10.10.1(vue@3.4.27)
+      vue-demi: 0.14.8(vue@3.4.27)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
   /@vueuse/integrations@10.10.0(focus-trap@7.5.4)(nprogress@0.2.0)(vue@3.4.27):
     resolution: {integrity: sha512-vHGeK7X6mkdkpcm1eE9t3Cpm21pNVfZRwrjwwbrEs9XftnSgszF4831G2rei8Dt9cIYJIfFV+iyx/29muimJPQ==}
     peerDependencies:
@@ -1850,8 +1861,19 @@ packages:
   /@vueuse/metadata@10.10.0:
     resolution: {integrity: sha512-UNAo2sTCAW5ge6OErPEHb5z7NEAg3XcO9Cj7OK45aZXfLLH1QkexDcZD77HBi5zvEiLOm1An+p/4b5K3Worpug==}
 
+  /@vueuse/metadata@10.10.1:
+    resolution: {integrity: sha512-dpEL5afVLUqbchwGiLrV6spkl4/6UOKJ3YgxFE+wWLj/LakyIZUC83bfeFgbHkRcNhsAqTQCGR74jImsLfK8pg==}
+
   /@vueuse/shared@10.10.0(vue@3.4.27):
     resolution: {integrity: sha512-2aW33Ac0Uk0U+9yo3Ypg9s5KcR42cuehRWl7vnUHadQyFvCktseyxxEPBi1Eiq4D2yBGACOnqLZpx1eMc7g5Og==}
+    dependencies:
+      vue-demi: 0.14.8(vue@3.4.27)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - vue
+
+  /@vueuse/shared@10.10.1(vue@3.4.27):
+    resolution: {integrity: sha512-edqexI+RQpoeqDxTatqBZa+K87ganbrwpoP++Fd9828U3js5jzwcEDeyrYcUgkKZ5LLL8q7M5SOMvSpMrxBPxg==}
     dependencies:
       vue-demi: 0.14.8(vue@3.4.27)
     transitivePeerDependencies:
@@ -3680,7 +3702,7 @@ packages:
       '@vitejs/plugin-vue': 5.0.5(vite@5.2.12)(vue@3.4.27)
       '@vue/devtools-api': 7.2.1(vue@3.4.27)
       '@vue/shared': 3.4.27
-      '@vueuse/core': 10.10.0(vue@3.4.27)
+      '@vueuse/core': 10.10.1(vue@3.4.27)
       '@vueuse/integrations': 10.10.0(focus-trap@7.5.4)(nprogress@0.2.0)(vue@3.4.27)
       focus-trap: 7.5.4
       mark.js: 8.11.1
