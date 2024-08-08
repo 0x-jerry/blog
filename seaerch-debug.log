@@ -1,0 +1,26 @@
+Pagefind logging initialized
+[Status]: [Walking source directory]
+[Info]: Found 45 files matching **/*.{html}
+[Status]: [Parsing files]
+[Info]: Did not find a data-pagefind-body element on the site.
+↳ Indexing all <body> elements on the site.
+[Status]: [Reading languages]
+[Info]: Discovered 1 language: zh
+[Info]:   * zh: 44 pages
+[Status]: [Building search indexes]
+[Info]: Language zh: 
+  Indexed 44 pages
+  Indexed 3446 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+[Info]: Total: 
+  Indexed 1 language
+  Indexed 44 pages
+  Indexed 3446 words
+  Indexed 0 filters
+  Indexed 0 sorts
+[Warning]: Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
+[Warning]: Note: Pagefind doesn't support stemming for the language zh. 
+Search will still work, but will not match across root words.
