@@ -2,7 +2,6 @@
 title: 对低代码实现的思考
 date: 2023-11-08T12:02:22.972Z
 tags: [low code, system design]
-publish: false
 ---
 
 最近公司想搞一套低码的东西出来。感觉有点意思，所以记一记。本文仅记录前端页面生成部分，不考虑后端情况。

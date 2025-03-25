@@ -3,7 +3,6 @@ title: 写一个业务页面
 date: 2022-09-06T03:05:10.589Z
 tags: [Component, Vue]
 license: CC BY-NC 4.0
-publish: false
 ---
 
 简单记录一下一个业务页面开发的过程
@@ -23,13 +22,13 @@ publish: false
 简单的代码结构：
 
 ```vue
-<script lang='ts' setup>
-import { computed } from 'vue';
+<script lang="ts" setup>
+import { computed } from 'vue'
 
 // ---- api
 
 const apiData = {
-  a: {} as any,
+  a: {} as any
 }
 
 initData()
@@ -54,7 +53,7 @@ const dataA = computed(() => {
 
   return {
     // fake data or mock data
-    a: 1,
+    a: 1
   }
 })
 </script>
