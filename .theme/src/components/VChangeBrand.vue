@@ -31,7 +31,9 @@ const brand = useLocalStorage('brand-config', {
 })
 
 
-changeBrand(brand.value)
+if (!import.meta.env.SSR) {
+  changeBrand(brand.value)
+}
 
 function randomBrand() {
   const gray = grayColors[rand(0, grayColors.length)]
