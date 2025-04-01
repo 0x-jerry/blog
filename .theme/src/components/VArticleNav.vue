@@ -23,7 +23,7 @@ function calcActiveAnchor() {
     return
   }
 
-  activeAnchor.value = calcTheLatestAnchor(props.headers)
+  activeAnchor.value = calcTheLatestAnchor(props.headers) ?? props.headers.at(0)
 }
 
 function calcTheLatestAnchor(headers: Header[]): Header | undefined {
