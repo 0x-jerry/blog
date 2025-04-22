@@ -64,11 +64,11 @@ importers:
         specifier: ^0.9.5
         version: 0.9.5
       i18next:
-        specifier: ^24.2.3
-        version: 24.2.3(typescript@5.8.2)
+        specifier: ^25.0.0
+        version: 25.0.1(typescript@5.8.2)
       i18next-vue:
         specifier: ^5.2.0
-        version: 5.2.0(i18next@24.2.3(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
+        version: 5.2.0(i18next@25.0.1(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
       less:
         specifier: ^4.2.2
         version: 4.2.2
@@ -1727,8 +1727,8 @@ packages:
       i18next: '>=23'
       vue: ^3.4.38
 
-  i18next@24.2.3:
-    resolution: {integrity: sha512-lfbf80OzkocvX7nmZtu7nSTNbrTYR52sLWxPtlXX1zAhVw8WEnFk4puUkCR4B1dNQwbSpEHHHemcZu//7EcB7A==}
+  i18next@25.0.1:
+    resolution: {integrity: sha512-8S8PyZbrymJZn3DaN70/34JYWNhsqrU6yA4MuzcygJBv+41dgNMocEA8h+kV1P7MCc1ll03lOTOIXE7mpNCicw==}
     peerDependencies:
       typescript: ^5
     peerDependenciesMeta:
@@ -3970,12 +3970,12 @@ snapshots:
       domutils: 3.2.2
       entities: 4.5.0
 
-  i18next-vue@5.2.0(i18next@24.2.3(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2)):
+  i18next-vue@5.2.0(i18next@25.0.1(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2)):
     dependencies:
-      i18next: 24.2.3(typescript@5.8.2)
+      i18next: 25.0.1(typescript@5.8.2)
       vue: 3.5.13(typescript@5.8.2)
 
-  i18next@24.2.3(typescript@5.8.2):
+  i18next@25.0.1(typescript@5.8.2):
     dependencies:
       '@babel/runtime': 7.27.0
     optionalDependencies:
