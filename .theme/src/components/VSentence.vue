@@ -6,7 +6,7 @@ const hitokoto = useAsyncData(fetchHitokoto, {})
 hitokoto.load()
 
 async function fetchHitokoto() {
-  const url = 'https://0x-jerry.icu/api/hitokoto?t=' + new Date().getTime()
+  const url = `https://0x-jerry.icu/api/hitokoto?t=${new Date().getTime()}`
   const resp = await (await fetch(url)).json()
   return resp.data
 }

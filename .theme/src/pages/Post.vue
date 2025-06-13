@@ -22,7 +22,7 @@ const percentage = computed(() => {
   if (import.meta.env.SSR) return 0
 
   const h = (document.documentElement.scrollHeight || 0) - window.innerHeight
-  return toFixed((y.value / h) * 100, 2) + '%'
+  return `${toFixed((y.value / h) * 100, 2)}%`
 })
 </script>
 
