@@ -35,7 +35,7 @@ function calcTheLatestAnchor(headers: Header[]): Header | undefined {
 
     const target = document.querySelector(header.link)
 
-    const top = target?.getBoundingClientRect().top || Infinity
+    const top = target?.getBoundingClientRect().top || Number.POSITIVE_INFINITY
 
     if (top < checkOffsetTop) {
       return header
