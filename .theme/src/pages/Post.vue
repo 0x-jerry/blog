@@ -49,7 +49,7 @@ const headers = computed(() => route.data.headers)
 
 <style lang="less" scoped>
 .post-nav {
-  @apply w-300px hidden xl:block;
+  @apply hidden xl:block;
 
   position: fixed;
   top: 50%;
