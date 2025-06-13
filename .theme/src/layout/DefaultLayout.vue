@@ -4,7 +4,7 @@ import LayoutHeader from './components/LayoutHeader.vue'
 </script>
 
 <template>
-  <div class="default-layout h-screen w-full">
+  <div class="default-layout h-screen w-full" id="default-layout">
     <div class="text-right" id="layout-content-left">
       <LayoutHeader class="sidebar"></LayoutHeader>
     </div>
@@ -26,6 +26,8 @@ import LayoutHeader from './components/LayoutHeader.vue'
 <style lang="less" scoped>
 .default-layout {
   display: grid;
+  overflow: auto;
+  overflow: overlay;
 
   grid-template: 
     "nav" 

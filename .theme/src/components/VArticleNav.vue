@@ -1,29 +1,41 @@
 <script lang="ts" setup>
 import { type Header } from 'vitepress'
-import NavComp from './VArticleNav.vue'
-import VLink from './VLink.vue'
 import { useEventListener } from '@vueuse/core'
 import { onMounted, ref } from 'vue'
+import VNavComp from './VNavComp.vue'
+import { toFixed } from '@0x-jerry/utils'
 
 const props = defineProps<{
   headers: Header[]
-  active?: Header
-  child?: boolean
 }>()
 
 const activeAnchor = ref<Header>()
 const checkOffsetTop = 200
 
-useEventListener('scroll', calcActiveAnchor)
+const scrollContainerEl = ref<HTMLElement | null>()
 
-onMounted(calcActiveAnchor)
+const percentage = ref('0%')
+
+useEventListener(scrollContainerEl, 'scroll', calcActiveAnchor)
+
+onMounted(() => {
+  scrollContainerEl.value = document.getElementById('default-layout')
+  console.log(scrollContainerEl.value)
+
+  calcActiveAnchor()
+})
 
 function calcActiveAnchor() {
-  if (props.child) {
-    return
-  }
-
   activeAnchor.value = calcTheLatestAnchor(props.headers) ?? props.headers.at(0)
+  percentage.value = calcPercentage()
+}
+
+function calcPercentage() {
+  if (import.meta.env.SSR) return '0%'
+
+  const h = (scrollContainerEl.value?.scrollHeight || 0) - window.innerHeight
+  const y = scrollContainerEl.value?.scrollTop || 0
+  return `${toFixed((y / h) * 100, 2)}%`
 }
 
 function calcTheLatestAnchor(headers: Header[]): Header | undefined {
@@ -45,36 +57,30 @@ function calcTheLatestAnchor(headers: Header[]): Header | undefined {
 </script>
 
 <template>
-  <ul class="v-article-nav">
-    <li v-for="header in headers" class="truncate">
-      <VLink class="inline!" :href="header.link" theme="gray" :active="(active || activeAnchor) === header">
-        {{ header.title }}
-      </VLink>
-      <NavComp v-if="header.children" :headers="header.children" :active="activeAnchor" child />
-    </li>
-  </ul>
+  <div class="v-article-nav" :style="{ '--scroll-progress': percentage }">
+    <VNavComp :headers="headers" :active="activeAnchor" />
+  </div>
 </template>
 
 <style lang="less" scoped>
-li {
-  margin-bottom: 4px;
+.v-article-nav {
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 0;
 
-  ul {
-    margin-top: 4px;
-  }
-}
-
-ul {
-  padding-left: 0;
-}
-
-li {
-  ul {
-    padding-left: 1rem;
+    width: 1px;
+    height: 100%;
+    @apply bg-bGray-2;
+  } 
+  
+  &::after {
+    z-index: 1;
+    height: var(--scroll-progress, 0px);
+    @apply bg-bPrimary;
   }
 }
 </style>

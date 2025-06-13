@@ -5,8 +5,6 @@ import VGiscus from '@@/components/VGiscus.vue'
 import VTitle from '@@/components/VTitle.vue'
 import VArticleNav from '@@/components/VArticleNav.vue'
 import LayoutRightSlot from '@@/layout/components/LayoutRightSlot.vue'
-import { useWindowScroll } from '@vueuse/core'
-import { toFixed } from '@0x-jerry/utils'
 
 const attrs = useAttrs()
 
@@ -15,15 +13,6 @@ const route = useRoute()
 const enableComment = computed(() => attrs.comment ?? import.meta.env.PROD)
 
 const headers = computed(() => route.data.headers)
-
-const { y } = useWindowScroll()
-
-const percentage = computed(() => {
-  if (import.meta.env.SSR) return 0
-
-  const h = (document.documentElement.scrollHeight || 0) - window.innerHeight
-  return `${toFixed((y.value / h) * 100, 2)}%`
-})
 </script>
 
 <template>
@@ -52,9 +41,7 @@ const percentage = computed(() => {
         </ClientOnly>
       </div>
       <LayoutRightSlot v-if="headers.length">
-        <div class="post-nav" :style="{ '--scroll-progress': percentage }">
-          <VArticleNav :headers="headers" />
-        </div>
+        <VArticleNav class="post-nav" :headers="headers" />
       </LayoutRightSlot>
     </div>
   </div>
@@ -68,23 +55,5 @@ const percentage = computed(() => {
   top: 50%;
   transform: translate(1rem, -50%);
   padding-left: 1rem;
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    left: -1px;
-    top: 0;
-
-    width: 1px;
-    height: 100%;
-    @apply bg-bGray-2;
-  }
-
-  &::after {
-    z-index: 1;
-    height: var(--scroll-progress, 0px);
-    @apply bg-bPrimary;
-  }
 }
 </style>
