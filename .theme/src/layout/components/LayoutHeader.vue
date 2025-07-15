@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-import { useTheme } from '@@/hooks/useTheme'
-import { useI18n } from '@@/lib/i18n'
 import VButton from '@@/components/VButton.vue'
 import VChangeBrand from '@@/components/VChangeBrand.vue'
+import { useTheme } from '@@/hooks/useTheme'
+import { useI18n } from '@@/lib/i18n'
 
 const { t } = useI18n()
 const theme = useTheme()

@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { computed, useAttrs } from 'vue'
-import { useRoute } from 'vitepress'
+import VArticleNav from '@@/components/VArticleNav.vue'
 import VGiscus from '@@/components/VGiscus.vue'
 import VTitle from '@@/components/VTitle.vue'
-import VArticleNav from '@@/components/VArticleNav.vue'
 import LayoutRightSlot from '@@/layout/components/LayoutRightSlot.vue'
+import { useRoute } from 'vitepress'
+import { computed, useAttrs } from 'vue'
 
 const attrs = useAttrs()
 

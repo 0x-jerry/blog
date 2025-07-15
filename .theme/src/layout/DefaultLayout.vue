@@ -28,6 +28,7 @@ import LayoutHeader from './components/LayoutHeader.vue'
   display: grid;
   overflow: auto;
   overflow: overlay;
+  overflow-x: hidden;
 
   grid-template: 
     "nav" 
@@ -38,6 +39,10 @@ import LayoutHeader from './components/LayoutHeader.vue'
 #layout-content-left {
   align-self: start;
   z-index: 10;
+
+  &:hover {
+    z-index: 30;
+  }
 }
 
 .sidebar {
