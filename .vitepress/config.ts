@@ -1,13 +1,13 @@
 import type { ThemeOption } from '@0x-jerry/vitepress-theme-blog'
-import createBaseConfig from '../.theme/vitepress/config'
 import { defineConfigWithTheme } from 'vitepress'
+import createBaseConfig from '../.theme/vitepress/config'
 
 export default async () => {
   const conf = defineConfigWithTheme<ThemeOption>({
     extends: await createBaseConfig({
       rss: {
         copyright: '',
-        title: '0x-Jerry\'s Blog',
+        title: "0x-Jerry's Blog",
         origin: 'https://blog.0x-jerry.icu',
       },
     }),
@@ -22,9 +22,9 @@ export default async () => {
       email: 'x.jerry.wang@gmail.com',
       timezone: 'Asia/Chongqing',
       links: {
-        github: 'https://github.com/0x-jerry'
-      }
-    }
+        github: 'https://github.com/0x-jerry',
+      },
+    },
   })
 
   return conf

@@ -1,7 +1,7 @@
-import { generateFeed, type RSSGenerateOption } from './rss'
-import path from 'path'
 import * as pagefind from 'pagefind'
+import path from 'path'
 import type { SiteConfig } from 'vitepress'
+import { generateFeed, type RSSGenerateOption } from './rss'
 
 export interface BlogPluginConfig {
   /**

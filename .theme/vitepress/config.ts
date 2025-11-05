@@ -1,17 +1,17 @@
-import path from 'path'
-import Components from 'unplugin-vue-components/vite'
-import Uno from 'unocss/vite'
-import unoConfig from '../uno.config'
-import { defineConfig, type HeadConfig, type UserConfig } from 'vitepress'
-import { postBlogGenerate, type BlogPluginConfig } from './blog'
-import { fileURLToPath } from 'url'
-import readingTime from 'reading-time'
-import { readFileSync } from 'fs'
-import dayjs from 'dayjs'
-import utc from 'dayjs/plugin/utc'
-import timezone from 'dayjs/plugin/timezone'
-import yaml from '@rollup/plugin-yaml'
 import { figure } from '@mdit/plugin-figure'
+import yaml from '@rollup/plugin-yaml'
+import dayjs from 'dayjs'
+import timezone from 'dayjs/plugin/timezone'
+import utc from 'dayjs/plugin/utc'
+import { readFileSync } from 'fs'
+import path from 'path'
+import readingTime from 'reading-time'
+import Uno from 'unocss/vite'
+import Components from 'unplugin-vue-components/vite'
+import { fileURLToPath } from 'url'
+import { defineConfig, type HeadConfig, type UserConfig } from 'vitepress'
+import unoConfig from '../uno.config'
+import { type BlogPluginConfig, postBlogGenerate } from './blog'
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -70,9 +70,7 @@ export default async (opt: Partial<ThemePluginOption> = {}) => {
         },
       },
     },
-    head: [
-      ...extraHeads,
-    ],
+    head: [...extraHeads],
     cleanUrls: true,
     transformPageData(pageData, _ctx) {
       const content = readFileSync(pageData.filePath, { encoding: 'utf-8' })
@@ -113,7 +111,6 @@ export default async (opt: Partial<ThemePluginOption> = {}) => {
         light: 'vitesse-light',
       },
       config(md) {
-        // @ts-ignore
         md.use(figure)
       },
     },

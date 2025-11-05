@@ -1,8 +1,8 @@
+import { load as cheerioLoad } from 'cheerio'
+import dayjs from 'dayjs'
 import { Feed, type FeedOptions } from 'feed'
 import fs from 'fs/promises'
 import path from 'path'
-import dayjs from 'dayjs'
-import { load as cheerioLoad } from 'cheerio'
 
 const vitepressDir = path.join(process.cwd(), '.vitepress')
 
@@ -16,7 +16,7 @@ export async function generateFeed(conf: RSSGenerateOption) {
   const feed = new Feed({
     id: conf.origin,
     link: conf.origin,
-    favicon: conf.origin + '/favicon.ico',
+    favicon: `${conf.origin}/favicon.ico`,
     feedLinks: {
       rss2: `${conf.origin}/${conf.filename}`,
     },
@@ -43,12 +43,9 @@ export async function generateFeed(conf: RSSGenerateOption) {
     const date = $('meta[name=date]').attr('content')
 
     const title = $('title').text()
-
-    {
-      // remove sidebar
-      $('#layout-content-left').remove()
-      $('#layout-content-right').remove()
-    }
+    // remove sidebar
+    $('#layout-content-left').remove()
+    $('#layout-content-right').remove()
 
     posts.push({
       date: dayjs.tz(date).toDate(),
