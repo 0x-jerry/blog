@@ -1,2 +1,3 @@
+shamefullyHoist: true
 packages:
   - .theme
