@@ -20,8 +20,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          # latest version will trigger OOM error in github actions
-          node-version: 22
+          node-version: lts/*
           cache: "pnpm"
 
       - run: pnpm i
