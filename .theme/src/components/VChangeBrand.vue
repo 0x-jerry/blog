@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import VIcon from './VIcon.vue'
 import { randomBrand } from '@@/hooks/useBrand'
+import VIcon from './VIcon.vue'
 </script>
 
 <template>
