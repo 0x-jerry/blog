@@ -7,9 +7,10 @@ import 'normalize.css'
 import './styles/main.less'
 import 'uno.css'
 import dayjs from 'dayjs'
-import utc from 'dayjs/plugin/utc'
 import timezone from 'dayjs/plugin/timezone'
+import utc from 'dayjs/plugin/utc'
 import { initBrand } from './hooks/useBrand'
+import { loadingIndicator } from './lib/loading'
 
 dayjs.extend(utc)
 dayjs.extend(timezone)
@@ -19,6 +20,16 @@ export const theme: Theme = {
   NotFound: () => 'custom 404', // <- this is a Vue 3 functional component
   enhanceApp({ app, router, siteData }) {
     app.use(installI18n)
+
+    const t = loadingIndicator()
+
+    router.onBeforePageLoad = (to) => {
+      t.show()
+    }
+
+    router.onAfterPageLoad = (to) => {
+      t.hide()
+    }
 
     initBrand()
 
