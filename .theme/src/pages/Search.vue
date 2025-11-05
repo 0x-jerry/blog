@@ -53,7 +53,7 @@ watch(
     <VTitle class="mb-3" show-back :title="t('title.search')"></VTitle>
     <div class="mb-3 px-2">
       <input
-        class="search-input"
+        class="v-search-input w-full border-1 border-solid border-gray-3 rounded py-1 px-2 text-lg"
         v-model="state.input"
         placeholder="Give me something to search"
       />
@@ -74,9 +74,7 @@ watch(
 </template>
 
 <style lang="less" scoped>
-.search-input {
-  @apply w-full border-(1 solid gray-3) rounded;
-  @apply py-1 px-2 text-lg;
+.v-search-input {
 
   &:focus {
     @apply border-blue-4;
