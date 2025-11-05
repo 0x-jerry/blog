@@ -1,11 +1,14 @@
 <script lang='ts' setup>
 import { sleep } from '@0x-jerry/utils'
-import { computed, reactive, shallowRef } from 'vue'
+import { computed, nextTick, reactive, shallowRef, useTemplateRef } from 'vue'
 import VIcon from './VIcon.vue'
 
 const props = defineProps<{
   selector: string
 }>()
+
+const rootEl = useTemplateRef('rootEl')
+const contentEl = useTemplateRef('contentEl')
 
 const imgElements = shallowRef<Element[]>([])
 
@@ -21,6 +24,16 @@ const state = reactive({
   },
 })
 
+const elState = {
+  currentImg: null as HTMLElement | null,
+  currentState: {
+    scale: 1,
+    x: 0,
+    y: 0,
+    rotate: 0,
+  }
+}
+
 const totalCount = computed(() => imgElements.value.length)
 
 const actionButtons = [
@@ -28,21 +41,21 @@ const actionButtons = [
     name: 'reset',
     icon: 'i-carbon:reset',
     action() {
-      // todo
+      resetCurrentImgStyle()
     },
   },
   {
     name: 'rotateLeft',
     icon: 'i-carbon:rotate-counterclockwise',
     action() {
-      // todo
+      rotateImage(-90)
     },
   },
   {
     name: 'rotateRight',
     icon: 'i-carbon:rotate-clockwise',
     action() {
-      // todo
+      rotateImage(90)
     },
   },
   {
@@ -55,7 +68,7 @@ const actionButtons = [
 ]
 
 function handleClick(e: MouseEvent) {
-  const images = document.querySelectorAll(props.selector)
+  const images = rootEl.value?.querySelectorAll(props.selector) || []
 
   imgElements.value = Array.from(images)
 
@@ -68,10 +81,32 @@ function handleClick(e: MouseEvent) {
   show()
 }
 
-function show() {
+async function show() {
   //
   state.visible = true
   state.visibleClass = true
+
+  state.prev.disabled = state.current === 0
+  state.next.disabled = state.current === imgElements.value.length - 1
+
+  await nextTick()
+
+  if (!contentEl.value) return
+
+  const el = imgElements.value[state.current].cloneNode() as HTMLElement
+
+  el.style.position = 'absolute'
+  el.style.maxHeight = '80%'
+  el.style.maxWidth = '80%'
+  el.style.top = '50%';
+  el.style.left = '50%';
+  el.style.transition = 'transform .4s ease'
+  el.style.transform = 'translate(-50%, -50%)';
+
+  elState.currentImg = el
+  resetCurrentImgStyle()
+
+  contentEl.value.appendChild(el)
 }
 
 async function hide() {
@@ -79,6 +114,8 @@ async function hide() {
 
   await sleep(150)
   state.visible = false
+
+  elState.currentImg = null
 }
 
 function handlePrev() {
@@ -88,16 +125,59 @@ function handlePrev() {
 function handleNext() {
   // todo
 }
+
+function resetCurrentImgStyle() {
+  elState.currentState.scale = 1
+  elState.currentState.x = 0
+  elState.currentState.y = 0
+  elState.currentState.rotate = 0
+
+  applyCurrentImageStyle()
+}
+
+function rotateImage(deg: number) {
+  elState.currentState.rotate += deg
+
+  applyCurrentImageStyle()
+}
+
+function handleResize(evt: WheelEvent) {
+  const step = 0.1
+  let scale = elState.currentState.scale + (evt.deltaY < 0 ? 1 : -1) * step
+
+  scale = Math.max(0.1, Math.min(scale, 5))
+
+  elState.currentState.scale = scale
+
+  applyCurrentImageStyle()
+}
+
+function applyCurrentImageStyle() {
+  if (!elState.currentImg) {
+    return
+  }
+
+  const { scale, x, y, rotate } = elState.currentState
+  const transformStr = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(${scale}) rotate(${rotate}deg)`
+  elState.currentImg.style.transform = transformStr;
+}
+
+function handleContentClick(e: MouseEvent) {
+  if (e.target !== e.currentTarget) {
+    e.stopPropagation()
+  }
+}
 </script>
 
 <template>
-  <div class="v-image-previewer" @click="handleClick">
+  <div ref="rootEl" class="v-image-previewer" @click="handleClick">
     <slot></slot>
   </div>
 
   <Teleport to="body">
-    <div class="v-image-previewer-container" v-if="state.visible" :class="{ 'is-visible': state.visibleClass }">
-      <div class="v-img-toolbar py-2 px-4 flex items-center" @click.stop>
+    <div class="v-image-previewer-container" v-if="state.visible" :class="{ 'is-visible': state.visibleClass }"
+      @wheel.stop @click="hide">
+      <div class="v-img-toolbar py-2 px-4 flex items-center z-10" @click.stop>
         <div class="flex-1 font-mono">
           {{ state.current + 1 }} / {{ totalCount }}
         </div>
@@ -110,14 +190,18 @@ function handleNext() {
         </div>
       </div>
 
-      <div class="preview-content">
-        <div class="content">
+      <div class="preview-content" @wheel="handleResize">
+        <div ref="contentEl" class="img-content" @click="handleContentClick">
 
         </div>
-        <div class="left-btn icon-btn" :class="{ 'is-disabled': state.prev.disabled }" @click.stop="handlePrev">
+
+        <!-- not implement, hide it -->
+        <div v-if="false" class="left-btn icon-btn" :class="{ 'is-disabled': state.prev.disabled }"
+          @click.stop="handlePrev">
           <VIcon class="i-carbon:chevron-left"></VIcon>
         </div>
-        <div class="right-btn icon-btn" :class="{ 'is-disabled': state.next.disabled }" @click.stop="handleNext">
+        <div v-if="false" class="right-btn icon-btn" :class="{ 'is-disabled': state.next.disabled }"
+          @click.stop="handleNext">
           <VIcon class="i-carbon:chevron-right"></VIcon>
         </div>
       </div>
@@ -158,6 +242,15 @@ function handleNext() {
   .preview-content {
     flex: 1;
     height: 0;
+    position: relative;
+  }
+
+  .img-content {
+    overflow: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   .icon-btn {
@@ -177,7 +270,7 @@ function handleNext() {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
+    z-index: 10;
   }
 
   .left-btn {

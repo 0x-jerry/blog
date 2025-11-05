@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { computed, ref } from 'vue'
 import { useElementSize } from '@vueuse/core'
+import { computed, ref } from 'vue'
 
 export interface IFramePreviewProps {
   title: string
@@ -11,7 +11,7 @@ defineProps<IFramePreviewProps>()
 
 const iframeSize = {
   w: 1920,
-  h: 1080
+  h: 1080,
 }
 
 const container = ref()
@@ -29,21 +29,15 @@ const scale = computed(() => {
 const iframeStyle = computed(() => {
   return {
     transform: `scale(${scale.value})`,
-    transformOrigin: 'top left'
+    transformOrigin: 'top left',
   }
 })
 </script>
 
 <template>
   <div class="relative mb-12" ref="container">
-    <iframe
-      :src="url"
-      frameborder="0"
-      class="absolute border-(1 solid bGray-2)"
-      :width="iframeSize.w"
-      :height="iframeSize.h"
-      :style="iframeStyle"
-    ></iframe>
+    <iframe :src="url" frameborder="0" class="absolute border-(1 solid bGray-2)" :width="iframeSize.w"
+      :height="iframeSize.h" :style="iframeStyle"></iframe>
 
     <div class="iframe-link">
       <a :href="url" target="_blank">
