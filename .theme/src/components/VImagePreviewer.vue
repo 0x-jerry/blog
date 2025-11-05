@@ -141,6 +141,7 @@ function rotateImage(deg: number) {
   applyCurrentImageStyle()
 }
 
+// todo, support mobile gestures
 function handleResize(evt: WheelEvent) {
   const step = 0.1
   let scale = elState.currentState.scale + (evt.deltaY < 0 ? 1 : -1) * step
@@ -177,7 +178,7 @@ function handleContentClick(e: MouseEvent) {
   <Teleport to="body">
     <div class="v-image-previewer-container" v-if="state.visible" :class="{ 'is-visible': state.visibleClass }"
       @wheel.stop @click="hide">
-      <div class="v-img-toolbar py-2 px-4 flex items-center z-10" @click.stop>
+      <div class="v-image-toolbar py-2 px-4 flex items-center z-10" @click.stop>
         <div class="flex-1 font-mono">
           {{ state.current + 1 }} / {{ totalCount }}
         </div>
@@ -239,6 +240,10 @@ function handleContentClick(e: MouseEvent) {
     }
   }
 
+  .v-image-toolbar {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
   .preview-content {
     flex: 1;
     height: 0;
@@ -255,7 +260,6 @@ function handleContentClick(e: MouseEvent) {
 
   .icon-btn {
     @apply hover:bg-bGray-9 w-8 aspect-ratio-square rounded transition cursor-pointer flex items-center justify-center;
-
 
     &.is-disabled {
       opacity: 0.5;
