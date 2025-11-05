@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { watchEffect, reactive, computed } from 'vue'
+import { computed, reactive, watchEffect } from 'vue'
 
 interface VLinkProps {
   theme?: 'gray' | 'white' | 'text' | 'primary'
@@ -29,9 +29,8 @@ const url = computed(() => props.href)
 <template>
   <a
     :class="['link', theme, { 'is-active': active }]"
-    :title="url"
     :href="url"
-    :target="data.isEmail || !data.isRelative ? '_blank' : ''"
+    :target="data.isEmail || !data.isRelative ? '_blank' : undefined"
   >
     <template v-if="!data.isRelative">
       <span>

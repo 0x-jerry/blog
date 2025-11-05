@@ -23,11 +23,11 @@ export const theme: Theme = {
 
     const t = loadingIndicator()
 
-    router.onBeforePageLoad = (to) => {
+    router.onBeforeRouteChange = (to) => {
       t.show()
     }
 
-    router.onAfterPageLoad = (to) => {
+    router.onAfterRouteChange = (to) => {
       t.hide()
     }
 

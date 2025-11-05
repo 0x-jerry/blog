@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useI18n } from '@@/lib/i18n'
 import VExcerpt from '@@/components/VExcerpt.vue'
-import { data } from '@@/data/excerpts.data'
 import VTitle from '@@/components/VTitle.vue'
+import { data } from '@@/data/excerpts.data'
 import { useTheme } from '@@/hooks/useTheme'
+import { useI18n } from '@@/lib/i18n'
 import { computed } from 'vue'
 
 const theme = useTheme()
