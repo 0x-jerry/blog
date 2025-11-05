@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import { type Header } from 'vitepress'
+import { toFixed } from '@0x-jerry/utils'
 import { useEventListener } from '@vueuse/core'
+import { type Header } from 'vitepress'
 import { onMounted, ref } from 'vue'
 import VNavComp from './VNavComp.vue'
-import { toFixed } from '@0x-jerry/utils'
 
 const props = defineProps<{
   headers: Header[]
@@ -20,7 +20,6 @@ useEventListener(scrollContainerEl, 'scroll', calcActiveAnchor)
 
 onMounted(() => {
   scrollContainerEl.value = document.getElementById('default-layout')
-  console.log(scrollContainerEl.value)
 
   calcActiveAnchor()
 })
