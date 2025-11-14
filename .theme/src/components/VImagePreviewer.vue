@@ -1,6 +1,13 @@
 <script lang='ts' setup>
+import { useMovement } from '@@/hooks/useMovement'
 import { sleep } from '@0x-jerry/utils'
-import { computed, nextTick, reactive, shallowRef, useTemplateRef } from 'vue'
+import {
+  computed,
+  nextTick,
+  reactive,
+  shallowRef,
+  useTemplateRef,
+} from 'vue'
 import VIcon from './VIcon.vue'
 
 const props = defineProps<{
@@ -18,12 +25,22 @@ const state = reactive({
   visibleClass: false,
 })
 
+const movementState = useMovement({
+  onUpdate() {
+    if (elState.currentImg) {
+      elState.currentImg.style.transition = ''
+      applyCurrentImageStyle()
+      requestAnimationFrame(() => {
+        elState.currentImg!.style.transition = 'transform .4s ease'
+      })
+    }
+  }
+})
+
 const elState = {
   currentImg: null as HTMLElement | null,
   currentState: {
     scale: 1,
-    x: 0,
-    y: 0,
     rotate: 0,
   },
 }
@@ -181,8 +198,7 @@ function handleNext() {
 
 function resetCurrentImgState() {
   elState.currentState.scale = 1
-  elState.currentState.x = 0
-  elState.currentState.y = 0
+  movementState.reset()
   elState.currentState.rotate = 0
 }
 
@@ -232,7 +248,8 @@ function applyCurrentImageStyle() {
     return
   }
 
-  const { scale, x, y, rotate } = elState.currentState
+  const { scale, rotate } = elState.currentState
+  const { x, y } = movementState.state
   const transformStr = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(${scale}) rotate(${rotate}deg)`
   elState.currentImg.style.transform = transformStr
 }
@@ -265,7 +282,7 @@ function handleContentClick(e: MouseEvent) {
         </div>
       </div>
 
-      <div class="preview-content" @wheel="handleResize">
+      <div class="preview-content" @wheel="handleResize" @pointerdown="movementState.start()">
         <div ref="contentEl" class="img-content" @click="handleContentClick">
 
         </div>
