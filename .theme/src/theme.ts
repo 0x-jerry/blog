@@ -19,7 +19,10 @@ export const theme: Theme = {
   Layout,
   NotFound: () => 'custom 404', // <- this is a Vue 3 functional component
   enhanceApp({ app, router, siteData }) {
+    // app is the Vue 3 app instance from `createApp()`. router is VitePress'
+    // custom router. `siteData`` is a `ref`` of current site-level metadata.
     app.use(installI18n)
+    initBrand()
 
     const t = loadingIndicator()
 
@@ -30,10 +33,5 @@ export const theme: Theme = {
     router.onAfterRouteChange = (to) => {
       t.hide()
     }
-
-    initBrand()
-
-    // app is the Vue 3 app instance from `createApp()`. router is VitePress'
-    // custom router. `siteData`` is a `ref`` of current site-level metadata.
   },
 }
