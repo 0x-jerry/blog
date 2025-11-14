@@ -232,7 +232,7 @@ function cloneElement(index: number) {
 }
 
 // todo, support mobile gestures
-function handleResize(evt: WheelEvent) {
+function handleScale(evt: WheelEvent) {
   const step = 0.1
   let scale = elState.currentState.scale + (evt.deltaY < 0 ? 1 : -1) * step
 
@@ -282,7 +282,7 @@ function handleContentClick(e: MouseEvent) {
         </div>
       </div>
 
-      <div class="preview-content" @wheel="handleResize" @pointerdown="movementState.start()">
+      <div class="preview-content" @wheel="handleScale" @pointerdown="movementState.start()">
         <div ref="contentEl" class="img-content" @click="handleContentClick">
 
         </div>
