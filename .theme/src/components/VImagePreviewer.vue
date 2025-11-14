@@ -136,6 +136,7 @@ function handlePrev() {
 
   // new img
   const el = cloneElement(state.current)
+  el.style.transform = 'translate(-200%, -50%)'
   elState.currentImg = el
   contentEl.value?.appendChild(el)
 
@@ -167,6 +168,7 @@ function handleNext() {
 
   // new img
   const el = cloneElement(state.current)
+  el.style.transform = 'translate(100%, -50%)'
   elState.currentImg = el
   contentEl.value?.appendChild(el)
 
@@ -208,7 +210,7 @@ function cloneElement(index: number) {
   el.style.top = '50%'
   el.style.left = '50%'
   el.style.transition = 'transform .4s ease'
-  el.style.transform = 'translate(100%, -50%)'
+  el.style.transform = 'translate(-50%, -50%)'
 
   return el
 }
@@ -249,7 +251,7 @@ function handleContentClick(e: MouseEvent) {
 
   <Teleport to="body">
     <div class="v-image-previewer-container" v-if="state.visible" :class="{ 'is-visible': state.visibleClass }"
-      @wheel.stop @click="hide">
+      @wheel.stop.prevent @click="hide">
       <div class="v-image-toolbar py-2 px-4 flex items-center z-10" @click.stop>
         <div class="flex-1 font-mono">
           {{ state.current + 1 }} / {{ totalCount }}
