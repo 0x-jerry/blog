@@ -16,12 +16,6 @@ const state = reactive({
   current: 0,
   visible: false,
   visibleClass: false,
-  prev: {
-    disabled: true,
-  },
-  next: {
-    disabled: true,
-  },
 })
 
 const elState = {
@@ -31,10 +25,24 @@ const elState = {
     x: 0,
     y: 0,
     rotate: 0,
-  }
+  },
 }
 
 const totalCount = computed(() => imgElements.value.length)
+
+const btnStatus = computed(() => {
+  const current = state.current
+  const total = totalCount.value
+
+  return {
+    prev: {
+      disabled: current === 0,
+    },
+    next: {
+      disabled: current === total - 1,
+    },
+  }
+})
 
 const actionButtons = [
   {
@@ -82,28 +90,17 @@ function handleClick(e: MouseEvent) {
 }
 
 async function show() {
-  //
   state.visible = true
   state.visibleClass = true
-
-  state.prev.disabled = state.current === 0
-  state.next.disabled = state.current === imgElements.value.length - 1
 
   await nextTick()
 
   if (!contentEl.value) return
 
-  const el = imgElements.value[state.current].cloneNode() as HTMLElement
-
-  el.style.position = 'absolute'
-  el.style.maxHeight = '80%'
-  el.style.maxWidth = '80%'
-  el.style.top = '50%';
-  el.style.left = '50%';
-  el.style.transition = 'transform .4s ease'
-  el.style.transform = 'translate(-50%, -50%)';
+  const el = cloneElement(state.current)
 
   elState.currentImg = el
+
   resetCurrentImgStyle()
 
   contentEl.value.appendChild(el)
@@ -119,19 +116,76 @@ async function hide() {
 }
 
 function handlePrev() {
-  // todo
+  if (btnStatus.value.prev.disabled) {
+    return
+  }
+
+  const currentImg = elState.currentImg
+
+  if (currentImg) {
+    currentImg.addEventListener('transitionend', () => {
+      currentImg.remove()
+    })
+
+    const transformStr = `translate(100%, -50%) scale(1) rotate(0deg)`
+    currentImg.style.transform = transformStr
+  }
+
+  elState.currentImg = null
+  state.current -= 1
+
+  // new img
+  const el = cloneElement(state.current)
+  elState.currentImg = el
+  contentEl.value?.appendChild(el)
+
+  resetCurrentImgState()
+
+  requestAnimationFrame(() => {
+    applyCurrentImageStyle()
+  })
 }
 
 function handleNext() {
-  // todo
+  if (btnStatus.value.next.disabled) {
+    return
+  }
+
+  const currentImg = elState.currentImg
+
+  if (currentImg) {
+    currentImg.addEventListener('transitionend', () => {
+      currentImg.remove()
+    })
+
+    const transformStr = `translate(-200%, -50%) scale(1) rotate(0deg)`
+    currentImg.style.transform = transformStr
+  }
+
+  elState.currentImg = null
+  state.current += 1
+
+  // new img
+  const el = cloneElement(state.current)
+  elState.currentImg = el
+  contentEl.value?.appendChild(el)
+
+  resetCurrentImgState()
+
+  requestAnimationFrame(() => {
+    applyCurrentImageStyle()
+  })
 }
 
-function resetCurrentImgStyle() {
+function resetCurrentImgState() {
   elState.currentState.scale = 1
   elState.currentState.x = 0
   elState.currentState.y = 0
   elState.currentState.rotate = 0
+}
 
+function resetCurrentImgStyle() {
+  resetCurrentImgState()
   applyCurrentImageStyle()
 }
 
@@ -139,6 +193,24 @@ function rotateImage(deg: number) {
   elState.currentState.rotate += deg
 
   applyCurrentImageStyle()
+}
+
+function cloneElement(index: number) {
+  const el = imgElements.value[index]?.cloneNode() as HTMLElement
+
+  if (!el) {
+    throw new Error(`index ${index} is out of range`)
+  }
+
+  el.style.position = 'absolute'
+  el.style.maxHeight = '80%'
+  el.style.maxWidth = '80%'
+  el.style.top = '50%'
+  el.style.left = '50%'
+  el.style.transition = 'transform .4s ease'
+  el.style.transform = 'translate(100%, -50%)'
+
+  return el
 }
 
 // todo, support mobile gestures
@@ -160,7 +232,7 @@ function applyCurrentImageStyle() {
 
   const { scale, x, y, rotate } = elState.currentState
   const transformStr = `translate(calc(-50% + ${x}px), calc(-50% + ${y}px)) scale(${scale}) rotate(${rotate}deg)`
-  elState.currentImg.style.transform = transformStr;
+  elState.currentImg.style.transform = transformStr
 }
 
 function handleContentClick(e: MouseEvent) {
@@ -196,13 +268,10 @@ function handleContentClick(e: MouseEvent) {
 
         </div>
 
-        <!-- not implement, hide it -->
-        <div v-if="false" class="left-btn icon-btn" :class="{ 'is-disabled': state.prev.disabled }"
-          @click.stop="handlePrev">
+        <div class="left-btn icon-btn" :class="{ 'is-disabled': btnStatus.prev.disabled }" @click.stop="handlePrev">
           <VIcon class="i-carbon:chevron-left"></VIcon>
         </div>
-        <div v-if="false" class="right-btn icon-btn" :class="{ 'is-disabled': state.next.disabled }"
-          @click.stop="handleNext">
+        <div class="right-btn icon-btn" :class="{ 'is-disabled': btnStatus.next.disabled }" @click.stop="handleNext">
           <VIcon class="i-carbon:chevron-right"></VIcon>
         </div>
       </div>
