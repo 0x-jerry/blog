@@ -197,14 +197,36 @@ function resetCurrentImgState() {
 }
 
 function resetCurrentImgStyle() {
-  resetCurrentImgState()
+  const img = elState.currentImg
+  if (!img) return
+
+  elState.currentState.rotate = elState.currentState.rotate % 360;
+  img.style.transition = ''
   applyCurrentImageStyle()
+
+  requestAnimationFrame(() => {
+    img.style.transition = 'transform .4s ease'
+    resetCurrentImgState()
+    applyCurrentImageStyle()
+  })
 }
 
 function rotateImage(deg: number) {
-  elState.currentState.rotate += deg
+  const img = elState.currentImg
+  if (!img) return
 
+  elState.currentState.rotate = elState.currentState.rotate % 360;
+
+  img.style.transition = ''
   applyCurrentImageStyle()
+
+  requestAnimationFrame(() => {
+    img.style.transition = 'transform .4s ease'
+    elState.currentState.rotate += deg
+
+    applyCurrentImageStyle()
+  })
+
 }
 
 function cloneElement(index: number) {
