@@ -1,11 +1,11 @@
-import { type Route } from 'vitepress'
-import { type Component } from 'vue'
-import Home from './pages/Home.vue'
-import Post from './pages/Post.vue'
+import type { Route } from 'vitepress'
+import type { Component } from 'vue'
 import About from './pages/About.vue'
+import Home from './pages/Home.vue'
 import NotFound from './pages/NotFound.vue'
-import Tags from './pages/Tags.vue'
+import Post from './pages/Post.vue'
 import Search from './pages/Search.vue'
+import Tags from './pages/Tags.vue'
 
 interface RouteItem {
   match: RegExp | string | ((route: Route) => boolean)

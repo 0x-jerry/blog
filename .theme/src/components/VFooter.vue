@@ -1,7 +1,7 @@
 <script lang="ts" setup>
+import { useTheme } from '@@/hooks/useTheme'
 import dayjs from 'dayjs'
 import VLink from './VLink.vue'
-import { useTheme } from '@@/hooks/useTheme'
 
 const year = dayjs.tz().year()
 

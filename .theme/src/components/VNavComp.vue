@@ -1,14 +1,13 @@
 <script lang="ts" setup>
 import { type Header } from 'vitepress'
-import NavComp from './VNavComp.vue'
 import VLink from './VLink.vue'
+import NavComp from './VNavComp.vue'
 
 const porps = defineProps<{
   headers: Header[]
   active?: Header
   child?: boolean
 }>()
-
 </script>
 
 <template>

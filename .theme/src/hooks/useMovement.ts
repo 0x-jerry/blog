@@ -2,7 +2,7 @@ import { useEventListener } from '@vueuse/core'
 import { reactive } from 'vue'
 
 export interface UseMovementOptions {
-    onUpdate?:() => void;
+  onUpdate?: () => void
 }
 
 export function useMovement(opt?: UseMovementOptions) {

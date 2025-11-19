@@ -1,13 +1,7 @@
 <script lang='ts' setup>
 import { useMovement } from '@@/hooks/useMovement'
 import { sleep } from '@0x-jerry/utils'
-import {
-  computed,
-  nextTick,
-  reactive,
-  shallowRef,
-  useTemplateRef,
-} from 'vue'
+import { computed, nextTick, reactive, shallowRef, useTemplateRef } from 'vue'
 import VIcon from './VIcon.vue'
 
 const props = defineProps<{
@@ -34,7 +28,7 @@ const movementState = useMovement({
         elState.currentImg!.style.transition = 'transform .4s ease'
       })
     }
-  }
+  },
 })
 
 const elState = {

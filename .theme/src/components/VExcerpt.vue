@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import VLink from './VLink.vue'
-import VTag from './VTag.vue'
 import dayjs from 'dayjs'
 import type { ExcerptData } from '../../types'
-import VAutoResize from './VAutoResize.vue';
+import VAutoResize from './VAutoResize.vue'
+import VLink from './VLink.vue'
+import VTag from './VTag.vue'
 
 interface VExcerptProps extends ExcerptData {
   href: string
@@ -12,7 +12,6 @@ interface VExcerptProps extends ExcerptData {
 withDefaults(defineProps<VExcerptProps>(), {
   tags: () => [],
 })
-
 </script>
 
 <template>

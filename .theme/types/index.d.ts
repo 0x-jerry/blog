@@ -1,5 +1,4 @@
 import type { ReadTimeResults } from 'reading-time'
-import type { FeedOptions } from 'feed'
 
 export interface ExcerptData {
   date: string

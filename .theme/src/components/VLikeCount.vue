@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { useRoute } from 'vitepress'
 import { useAsyncData } from '@0x-jerry/vue-kit'
+import { useRoute } from 'vitepress'
 
 const route = useRoute()
 

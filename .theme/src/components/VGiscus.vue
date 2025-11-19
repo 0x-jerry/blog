@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { onMounted, onUnmounted, ref } from 'vue'
+
 const el = ref<HTMLDivElement>()
 
 const loading = ref(true)
@@ -31,7 +32,7 @@ function handleGiscusMessage(event: MessageEvent) {
 function createScript() {
   const script = document.createElement('script')
 
-  script.src = giscusHost + '/client.js'
+  script.src = `${giscusHost}/client.js`
   script.crossOrigin = 'anonymous'
   script.async = true
 

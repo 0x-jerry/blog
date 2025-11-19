@@ -1,12 +1,12 @@
 <script lang="ts" setup>
+import VExcerpt from '@@/components/VExcerpt.vue'
 import VTag from '@@/components/VTag.vue'
 import VTitle from '@@/components/VTitle.vue'
+import { data } from '@@/data/excerpts.data'
 import { useTheme } from '@@/hooks/useTheme'
 import { useI18n } from '@@/lib/i18n'
-import { computed } from 'vue'
-import { data } from '@@/data/excerpts.data'
-import VExcerpt from '@@/components/VExcerpt.vue'
 import { useUrlSearchParams } from '@vueuse/core'
+import { computed } from 'vue'
 
 const { t } = useI18n()
 const theme = useTheme()

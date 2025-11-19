@@ -1,9 +1,9 @@
 <script lang="ts" setup>
-import { useRoute } from 'vitepress'
-import { getRouteComponent } from './routes'
-import { useTheme } from './hooks/useTheme'
 import dayjs from 'dayjs'
+import { useRoute } from 'vitepress'
+import { useTheme } from './hooks/useTheme'
 import DefaultLayout from './layout/DefaultLayout.vue'
+import { getRouteComponent } from './routes'
 
 const route = useRoute()
 

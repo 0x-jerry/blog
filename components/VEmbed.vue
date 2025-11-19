@@ -13,15 +13,15 @@ const props = withDefaults(
   {
     type: 'iframe',
     width: '100%',
-    aspect: '16/9'
-  }
+    aspect: '16/9',
+  },
 )
 
 const style = computed(() => {
   const s: CSSProperties = {
     aspectRatio: props.aspect,
     width: props.width,
-    height: props.height
+    height: props.height,
   }
 
   return s

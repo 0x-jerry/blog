@@ -29,9 +29,12 @@ async function calcHideCount() {
 
     const len = props.list.length
     const max = len - 1
-    const _nextHideCount = hasScrollbar ? previousHideCount + 1 : previousHideCount - 1
+    const _nextHideCount = hasScrollbar
+      ? previousHideCount + 1
+      : previousHideCount - 1
 
-    const nextHideCount = _nextHideCount >= 0 && _nextHideCount <= max ? _nextHideCount : false
+    const nextHideCount =
+      _nextHideCount >= 0 && _nextHideCount <= max ? _nextHideCount : false
 
     if (nextHideCount === false) {
       break
