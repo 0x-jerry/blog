@@ -1,0 +1,28 @@
+import{_ as s,a as n,o as e,a7 as l}from"./chunks/framework.CDRMuFC8.js";const t="/assets/test.C7c0TFba.png",u=JSON.parse('{"title":"正则表达式","description":"","frontmatter":{"title":"正则表达式","date":"2017-03-27T01:49:44.000Z","tags":["Regex","JavaScript"],"license":"CC BY-NC 4.0","read":{"text":"3 min read","minutes":2.3,"time":138000,"words":460}},"headers":[{"level":2,"title":"简介","slug":"简介","link":"#简介","children":[]},{"level":2,"title":"基本语法","slug":"基本语法","link":"#基本语法","children":[{"level":3,"title":"选择","slug":"选择","link":"#选择","children":[]},{"level":3,"title":"数量限定","slug":"数量限定","link":"#数量限定","children":[]},{"level":3,"title":"匹配","slug":"匹配","link":"#匹配","children":[]}]},{"level":2,"title":"表达式全集","slug":"表达式全集","link":"#表达式全集","children":[]},{"level":2,"title":"优先级","slug":"优先级","link":"#优先级","children":[]},{"level":2,"title":"参考","slug":"参考","link":"#参考","children":[]}],"relativePath":"posts/regexp.md","filePath":"posts/regexp.md"}'),p={name:"posts/regexp.md"};function i(r,a,o,d,c,h){return e(),n("div",null,[...a[0]||(a[0]=[l(`<h2 id="简介" tabindex="-1">简介 <a class="header-anchor" href="#简介" aria-label="Permalink to &quot;简介&quot;">​</a></h2><blockquote><p>又称正规表示式、正规表示法、正规表达式、规则表达式、常规表示法（英语：Regular Expression，在代码中常简写为 regex、regexp 或 RE），是计算机科学的一个概念。正则表达式使用单个字符串来描述、匹配一系列匹配某个句法规则的字符串。在很多文本编辑器里，正则表达式通常被用来检索、替换那些匹配某个模式的文本。</p></blockquote><h2 id="基本语法" tabindex="-1">基本语法 <a class="header-anchor" href="#基本语法" aria-label="Permalink to &quot;基本语法&quot;">​</a></h2><h3 id="选择" tabindex="-1">选择 <a class="header-anchor" href="#选择" aria-label="Permalink to &quot;选择&quot;">​</a></h3><p>| 竖直分隔符代表选择。例如 “gray|grey” 可以匹配 grey 或 gray</p><h3 id="数量限定" tabindex="-1">数量限定 <a class="header-anchor" href="#数量限定" aria-label="Permalink to &quot;数量限定&quot;">​</a></h3><ul><li><code>+</code>：加号代表前面的字符必须至少出现一次。（1 次、或多次）。例如，“goo+gle” 可以匹配 google、gooogle、goooogle 等</li><li><code>?</code>：问号代表前面的字符最多只可以出现一次。（0 次、或 1 次）。例如，“colou?r” 可以匹配 color 或者 colour</li><li><code>*</code>：星号代表前面的字符可以不出现，也可以出现一次或者多次。（0 次、或 1 次、或多次）。例如，“0*42” 可以匹配 42、042、0042、00042 等</li></ul><h3 id="匹配" tabindex="-1">匹配 <a class="header-anchor" href="#匹配" aria-label="Permalink to &quot;匹配&quot;">​</a></h3><p>圆括号可以用来定义操作符的范围和优先度。例如，“gr(a|e)y” 等价于 “gray|grey”，“(grand)?father” 匹配 father 和 grandfather</p><h2 id="表达式全集" tabindex="-1">表达式全集 <a class="header-anchor" href="#表达式全集" aria-label="Permalink to &quot;表达式全集&quot;">​</a></h2><blockquote><p>详情查询：<a href="https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F#.E8.A1.A8.E8.BE.BE.E5.BC.8F.E5.85.A8.E9.9B.86" target="_blank" rel="noreferrer">表达式全集 - 适用于 Perl 或者 Python 编程语言</a></p></blockquote><h2 id="优先级" tabindex="-1">优先级 <a class="header-anchor" href="#优先级" aria-label="Permalink to &quot;优先级&quot;">​</a></h2><table tabindex="0"><thead><tr><th>优先级</th><th>符号</th></tr></thead><tbody><tr><td>最高</td><td><code>\\</code></td></tr><tr><td>高</td><td><code>( )、(?: )、( ?= )、[ ]</code></td></tr><tr><td>中</td><td><code>*、+、?、{n}、{n,}、{m,n}</code></td></tr><tr><td>低</td><td><code>^、$、中介字符</code></td></tr><tr><td>最低</td><td><code>丨</code></td></tr></tbody></table><p>练习文本：</p><div class="language-txt vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki shiki-themes vitesse-dark vitesse-light vp-code" tabindex="0"><code><span class="line"><span>abcdefghijklmnopqrstuvwxyz</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>a bc def ghij klmno pqrstu vwxyz</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>0123456789</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>0 12 345 6789 0</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>这是一段汉字，也是一段中国字。而 且还 是隔开 的 汉字</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>_	_</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>?&gt;&lt;:&quot;{}!@#%$&amp;*()+-=&#39;;/.,[]\\&#39;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>? &gt;&lt; :&quot;{ }!@# %$&amp;*( )+-=&#39; ;/.,[ ]\\&#39;</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>192.168.12.1</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>249.249.240.195</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>333.246.244.244</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>255.255.255.255</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1.1.1.1</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1.2.3.2555</span></span></code></pre></div><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes vitesse-dark vitesse-light vp-code" tabindex="0"><code><span class="line"><span>// 匹配 IP 地址</span></span>
+<span class="line"><span>\\b((1\\d{2}|2[0-4]\\d|25[0-5]|\\d{1,2})\\.){3}(1\\d{2}|2[0-4]\\d|25[0-5]|\\d{1,2})\\b</span></span></code></pre></div><p>结果图：</p><figure><img src="`+t+'" alt="匹配结果" tabindex="0" loading="lazy"><figcaption>匹配结果</figcaption></figure><h2 id="参考" tabindex="-1">参考 <a class="header-anchor" href="#参考" aria-label="Permalink to &quot;参考&quot;">​</a></h2><ul><li>正则表达式 - 维基百科，自由的百科全：<a href="https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F" target="_blank" rel="noreferrer">https://zh.wikipedia.org/wiki/正则表达式</a></li></ul>',20)])])}const b=s(p,[["render",i]]);export{u as __pageData,b as default};

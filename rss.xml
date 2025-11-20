@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>0x-Jerry's Blog</title>
+        <link>https://blog.0x-jerry.icu</link>
+        <description>undefined</description>
+        <lastBuildDate>Thu, 20 Nov 2025 01:56:59 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[macOS 上的 Accessibility]]></title>
+            <link>https://blog.0x-jerry.icu/posts/accessibility-on-macos</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/accessibility-on-macos</guid>
+            <pubDate>Mon, 24 Mar 2025 17:56:44 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>macOS 上的 Accessibility</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_accessibility-on-macos.md.Cmdwbnow.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2025-03-25T01:56:44.118Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->macOS 上的 Accessibility<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2024 的中间！？]]></title>
+            <link>https://blog.0x-jerry.icu/posts/middle-of-2024</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/middle-of-2024</guid>
+            <pubDate>Fri, 19 Jul 2024 18:58:17 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>2024 的中间！？</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_middle-of-2024.md.CN7SJKk0.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2024-07-20T02:58:17.578Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->2024 的中间！？<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[浅识 L-System]]></title>
+            <link>https://blog.0x-jerry.icu/posts/l-system</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/l-system</guid>
+            <pubDate>Sat, 01 Jun 2024 04:24:29 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>浅识 L-System</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_l-system.md.CmyJMkJ6.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2024-06-01T12:24:29.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->浅识 L-System<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VitePress Mismatch 错误]]></title>
+            <link>https://blog.0x-jerry.icu/posts/vitepress-mismatch</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/vitepress-mismatch</guid>
+            <pubDate>Sat, 07 Oct 2023 19:18:46 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VitePress Mismatch 错误</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_vitepress-mismatch.md.D9mveHbO.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2023-10-08T03:18:46.760Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->VitePress Mismatch 错误<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[gRPC 在 JS 中的应用]]></title>
+            <link>https://blog.0x-jerry.icu/posts/grpc</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/grpc</guid>
+            <pubDate>Thu, 28 Apr 2022 07:13:02 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>gRPC 在 JS 中的应用</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_grpc.md.C_rEWxEO.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2022-04-28T15:13:02.588Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->gRPC 在 JS 中的应用<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[WebAssembly 入门]]></title>
+            <link>https://blog.0x-jerry.icu/posts/intro-webassembly</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/intro-webassembly</guid>
+            <pubDate>Sun, 27 Mar 2022 06:25:25 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>WebAssembly 入门</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_intro-webassembly.md.BEVJ955T.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2022-03-27T14:25:25.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->WebAssembly 入门<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[加密工作区的实现方案]]></title>
+            <link>https://blog.0x-jerry.icu/posts/encrypt-workspace</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/encrypt-workspace</guid>
+            <pubDate>Sat, 25 Dec 2021 07:48:57 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>加密工作区的实现方案</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_encrypt-workspace.md.DTb0APHR.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-12-25T15:48:57.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->加密工作区的实现方案<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[对于前端工程的思考]]></title>
+            <link>https://blog.0x-jerry.icu/posts/fe-foundation</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/fe-foundation</guid>
+            <pubDate>Mon, 13 Dec 2021 18:47:47 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>对于前端工程的思考</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_fe-foundation.md.BXzM1tEY.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-12-14T02:47:47.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->对于前端工程的思考<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[对内容与技术的思考]]></title>
+            <link>https://blog.0x-jerry.icu/posts/tech-and-content</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/tech-and-content</guid>
+            <pubDate>Tue, 30 Nov 2021 17:58:48 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>对内容与技术的思考</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_tech-and-content.md.Dur_nBHe.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-12-01T01:58:48.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->对内容与技术的思考<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[设计一个像 hexo 的博客系统(4)]]></title>
+            <link>https://blog.0x-jerry.icu/posts/design-blog-system-4</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/design-blog-system-4</guid>
+            <pubDate>Mon, 25 Oct 2021 23:43:57 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计一个像 hexo 的博客系统(4)</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_design-blog-system-4.md.D01Q-Net.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-10-26T07:43:57.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->设计一个像 hexo 的博客系统(4)<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[尝试设计一个高度复用的系统]]></title>
+            <link>https://blog.0x-jerry.icu/posts/design-reuse-system</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/design-reuse-system</guid>
+            <pubDate>Tue, 28 Sep 2021 03:10:46 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>尝试设计一个高度复用的系统</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_design-reuse-system.md.p1Giajh9.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-09-28T11:10:46.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->尝试设计一个高度复用的系统<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[设计一个像 hexo 的博客系统(3)]]></title>
+            <link>https://blog.0x-jerry.icu/posts/design-blog-system-3</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/design-blog-system-3</guid>
+            <pubDate>Mon, 27 Sep 2021 19:11:43 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计一个像 hexo 的博客系统(3)</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_design-blog-system-3.md.CxAo-pIf.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-09-28T03:11:43.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->设计一个像 hexo 的博客系统(3)<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[设计一个像 hexo 的博客系统(2)]]></title>
+            <link>https://blog.0x-jerry.icu/posts/design-blog-system-2</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/design-blog-system-2</guid>
+            <pubDate>Sun, 26 Sep 2021 18:16:47 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计一个像 hexo 的博客系统(2)</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_design-blog-system-2.md.B1SSyix4.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-09-27T02:16:47.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->设计一个像 hexo 的博客系统(2)<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[设计一个像 hexo 的博客系统(1)]]></title>
+            <link>https://blog.0x-jerry.icu/posts/design-blog-system</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/design-blog-system</guid>
+            <pubDate>Sat, 25 Sep 2021 23:37:40 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>设计一个像 hexo 的博客系统(1)</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_design-blog-system.md.LZMCuy6r.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-09-26T07:37:40.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->设计一个像 hexo 的博客系统(1)<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VSCode 如何渲染代码]]></title>
+            <link>https://blog.0x-jerry.icu/posts/render-line</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/render-line</guid>
+            <pubDate>Wed, 08 Sep 2021 23:13:46 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VSCode 如何渲染代码</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_render-line.md.CxTgWwJd.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-09-09T07:13:46.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->VSCode 如何渲染代码<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[机器学习 ML]]></title>
+            <link>https://blog.0x-jerry.icu/posts/machine-learning</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/machine-learning</guid>
+            <pubDate>Mon, 09 Aug 2021 23:13:46 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>机器学习 ML</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_machine-learning.md.DKIyNFFG.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-08-10T07:13:46.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->机器学习 ML<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[微前端]]></title>
+            <link>https://blog.0x-jerry.icu/posts/micro-frontend</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/micro-frontend</guid>
+            <pubDate>Mon, 31 May 2021 10:03:01 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>微前端</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_micro-frontend.md._OhZ6tBh.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2021-05-31T18:03:01.122Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->微前端<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Nginx-Location]]></title>
+            <link>https://blog.0x-jerry.icu/posts/nginx-with-location</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/nginx-with-location</guid>
+            <pubDate>Wed, 16 Dec 2020 10:57:15 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nginx-Location</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_nginx-with-location.md.C8YxJ4W7.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-12-16T18:57:15.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Nginx-Location<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[树莓派之 Docker]]></title>
+            <link>https://blog.0x-jerry.icu/posts/docker-on-raspberrypi</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/docker-on-raspberrypi</guid>
+            <pubDate>Sat, 30 May 2020 21:06:43 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>树莓派之 Docker</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_docker-on-raspberrypi.md.DOhGKl-3.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-05-31T05:06:43.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->树莓派之 Docker<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NuxtJS 初识]]></title>
+            <link>https://blog.0x-jerry.icu/posts/basic-nuxtjs</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/basic-nuxtjs</guid>
+            <pubDate>Fri, 27 Mar 2020 23:13:46 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>NuxtJS 初识</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_basic-nuxtjs.md.CmMC0u45.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-03-28T07:13:46.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->NuxtJS 初识<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[首屏优化]]></title>
+            <link>https://blog.0x-jerry.icu/posts/first-page</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/first-page</guid>
+            <pubDate>Mon, 09 Mar 2020 21:26:32 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>首屏优化</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_first-page.md.CK990R1D.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-03-10T05:26:32.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->首屏优化<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vue3 - Runtime Core]]></title>
+            <link>https://blog.0x-jerry.icu/posts/vue-runtime-core</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/vue-runtime-core</guid>
+            <pubDate>Sun, 08 Mar 2020 18:42:19 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue3 - Runtime Core</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_vue-runtime-core.md.D1ELBa48.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-03-09T02:42:19.967Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Vue3 - Runtime Core<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vue3 - Reactivity]]></title>
+            <link>https://blog.0x-jerry.icu/posts/vue-reactivity</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/vue-reactivity</guid>
+            <pubDate>Thu, 05 Mar 2020 13:37:20 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue3 - Reactivity</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_vue-reactivity.md.COdIBmkd.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-03-05T21:37:20.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Vue3 - Reactivity<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vue3 - Runtime Dom]]></title>
+            <link>https://blog.0x-jerry.icu/posts/vue-runtime-dom</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/vue-runtime-dom</guid>
+            <pubDate>Wed, 04 Mar 2020 16:46:31 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vue3 - Runtime Dom</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_vue-runtime-dom.md.k0o7-8Yt.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2020-03-05T00:46:31.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Vue3 - Runtime Dom<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cloudflare 加速 Github Pages]]></title>
+            <link>https://blog.0x-jerry.icu/posts/cloudflare-and-github-pages</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/cloudflare-and-github-pages</guid>
+            <pubDate>Wed, 18 Dec 2019 20:29:17 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cloudflare 加速 Github Pages</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_cloudflare-and-github-pages.md.Cw1BdC-o.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2019-12-19T04:29:17.273Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Cloudflare 加速 Github Pages<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[V2Ray+Nginx+TLS]]></title>
+            <link>https://blog.0x-jerry.icu/posts/v2ray+nginx+https</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/v2ray+nginx+https</guid>
+            <pubDate>Tue, 13 Aug 2019 23:08:11 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>V2Ray+Nginx+TLS</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_v2ray_nginx_https.md.DVVP4j_e.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2019-08-14T07:08:11.906Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->V2Ray+Nginx+TLS<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Docker 编译 ScratchBlocks]]></title>
+            <link>https://blog.0x-jerry.icu/posts/cocker-compile-scratchblocks</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/cocker-compile-scratchblocks</guid>
+            <pubDate>Fri, 26 Apr 2019 13:51:30 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docker 编译 ScratchBlocks</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_cocker-compile-scratchblocks.md.RQpX3FoU.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2019-04-26T21:51:30.459Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Docker 编译 ScratchBlocks<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Base64 和 Blob]]></title>
+            <link>https://blog.0x-jerry.icu/posts/base64-and-blob</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/base64-and-blob</guid>
+            <pubDate>Thu, 25 Apr 2019 11:04:19 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Base64 和 Blob</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_base64-and-blob.md.9lIdJlUE.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2019-04-25T19:04:19.979Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Base64 和 Blob<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[hexo+git+travis自动部署]]></title>
+            <link>https://blog.0x-jerry.icu/posts/hexo-git-and-travis</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/hexo-git-and-travis</guid>
+            <pubDate>Wed, 07 Nov 2018 21:41:11 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>hexo+git+travis自动部署</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_hexo-git-and-travis.md.DVBW1KOH.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2018-11-08T05:41:11.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->hexo+git+travis自动部署<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Node 项目配置最佳实践]]></title>
+            <link>https://blog.0x-jerry.icu/posts/node-best-practice</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/node-best-practice</guid>
+            <pubDate>Mon, 02 Apr 2018 21:13:42 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Node 项目配置最佳实践</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_node-best-practice.md.BB4tHVAj.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2018-04-03T05:13:42.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Node 项目配置最佳实践<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AJAX 基础]]></title>
+            <link>https://blog.0x-jerry.icu/posts/basic-ajax</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/basic-ajax</guid>
+            <pubDate>Fri, 27 Oct 2017 05:08:27 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>AJAX 基础</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_basic-ajax.md.gSzzgHl1.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-10-27T13:08:27.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->AJAX 基础<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hexo 入门]]></title>
+            <link>https://blog.0x-jerry.icu/posts/basic-hexo</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/basic-hexo</guid>
+            <pubDate>Wed, 25 Oct 2017 05:08:27 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hexo 入门</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_basic-hexo.md.B5-vQWZs.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-10-25T13:08:27.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Hexo 入门<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript 持续集成]]></title>
+            <link>https://blog.0x-jerry.icu/posts/js-ci</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/js-ci</guid>
+            <pubDate>Thu, 28 Sep 2017 17:25:18 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaScript 持续集成</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_js-ci.md.D67-db4Z.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-09-29T01:25:18.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->JavaScript 持续集成<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ubuntu 装机清单]]></title>
+            <link>https://blog.0x-jerry.icu/posts/ubuntu-app</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/ubuntu-app</guid>
+            <pubDate>Fri, 22 Sep 2017 17:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Ubuntu 装机清单</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_ubuntu-app.md.KYKjy-Kv.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-09-23T01:00:49.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Ubuntu 装机清单<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Linux 下 iNode 解决方案]]></title>
+            <link>https://blog.0x-jerry.icu/posts/inode</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/inode</guid>
+            <pubDate>Mon, 18 Sep 2017 17:04:54 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Linux 下 iNode 解决方案</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_inode.md.zPJYyGEW.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-09-19T01:04:54.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Linux 下 iNode 解决方案<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Git 安装及常用命令]]></title>
+            <link>https://blog.0x-jerry.icu/posts/baisc-git</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/baisc-git</guid>
+            <pubDate>Sun, 16 Apr 2017 17:45:21 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git 安装及常用命令</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_baisc-git.md.CE_AO7Li.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-04-17T01:45:21.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->Git 安装及常用命令<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[正则表达式]]></title>
+            <link>https://blog.0x-jerry.icu/posts/regexp</link>
+            <guid isPermaLink="true">https://blog.0x-jerry.icu/posts/regexp</guid>
+            <pubDate>Sun, 26 Mar 2017 17:49:44 GMT</pubDate>
+            <content:encoded><![CDATA[<!DOCTYPE html><html lang="en-US" dir="ltr"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>正则表达式</title>
+    <meta name="description" content="A VitePress site">
+    <meta name="generator" content="VitePress v1.6.4">
+    <link rel="preload stylesheet" href="/assets/style.DefXEXjx.css" as="style">
+    <link rel="preload stylesheet" href="/vp-icons.css" as="style">
+    
+    <script type="module" src="/assets/app.CbGKh3Vp.js"></script>
+    <link rel="modulepreload" href="/assets/chunks/theme.C0jmVcIP.js">
+    <link rel="modulepreload" href="/assets/chunks/framework.CDRMuFC8.js">
+    <link rel="modulepreload" href="/assets/posts_regexp.md.DhkoZf_4.lean.js">
+    <meta name="rss" content="/rss.xml">
+    <link href="/rss.xml" rel="alternate" title="RSS" type="application/rss+xml">
+    <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
+    <script id="check-mac-os">document.documentElement.classList.toggle("mac",/Mac|iPhone|iPod|iPad/i.test(navigator.platform));</script>
+    <meta name="date" content="2017-03-27T01:49:44.000Z">
+  </head>
+  <body>
+    <div id="app"><div class="default-layout h-screen w-full" id="default-layout" data-v-d707543b=""><div class="flex flex-col min-h-screen w-full xl:w-700px xl:mx-0" data-v-d707543b=""><div class="flex-1" data-v-d707543b=""><!--[--><div class="v-post" data-v-30a2f537=""><div class="pt-3 sticky top-0 bg-white pb-2 border-0 border-b border-solid border-gray-2 z-20" data-v-30a2f537=""><div class="flex items-center pl-2 gap-3 text-xl xl:text-2xl"><a class="cursor-pointer flex"><span class="inline-flex text-lg bg-bGray-100 p-1 rounded"><i class="i-carbon-arrow-left"></i></span></a><!--[-->正则表达式<!--]--></div></div><!----><!----></div><!--]--></div><div class="mt-6" data-v-d707543b=""><div class="w-full text-center mt-4 my-6" data-v-d707543b=""> © 2017-2025 @ 0x-Jerry. Built top on <a class="link" href="https://vitepress.dev/" target="_blank" data-v-c92045f9=""><span data-v-c92045f9=""><!--[--> Vitepress <!--]--></span></a> . </div></div></div></div></div>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"about.md\":\"DF1WNQEa\",\"drafts_low-code.md\":\"C9FCUx7C\",\"drafts_wave-function-collapse.md\":\"CQhs2MNO\",\"drafts_write-a-business-page.md\":\"CCFIz_qQ\",\"index.md\":\"LBeHd8FT\",\"posts_accessibility-on-macos.md\":\"Cmdwbnow\",\"posts_baisc-git.md\":\"CE_AO7Li\",\"posts_base64-and-blob.md\":\"9lIdJlUE\",\"posts_basic-ajax.md\":\"gSzzgHl1\",\"posts_basic-hexo.md\":\"B5-vQWZs\",\"posts_basic-nuxtjs.md\":\"CmMC0u45\",\"posts_cloudflare-and-github-pages.md\":\"Cw1BdC-o\",\"posts_cocker-compile-scratchblocks.md\":\"RQpX3FoU\",\"posts_design-blog-system-2.md\":\"B1SSyix4\",\"posts_design-blog-system-3.md\":\"CxAo-pIf\",\"posts_design-blog-system-4.md\":\"D01Q-Net\",\"posts_design-blog-system.md\":\"LZMCuy6r\",\"posts_design-reuse-system.md\":\"p1Giajh9\",\"posts_docker-on-raspberrypi.md\":\"DOhGKl-3\",\"posts_encrypt-workspace.md\":\"DTb0APHR\",\"posts_fe-foundation.md\":\"BXzM1tEY\",\"posts_first-page.md\":\"CK990R1D\",\"posts_grpc.md\":\"C_rEWxEO\",\"posts_hexo-git-and-travis.md\":\"DVBW1KOH\",\"posts_inode.md\":\"zPJYyGEW\",\"posts_intro-webassembly.md\":\"BEVJ955T\",\"posts_js-ci.md\":\"D67-db4Z\",\"posts_l-system.md\":\"CmyJMkJ6\",\"posts_machine-learning.md\":\"DKIyNFFG\",\"posts_micro-frontend.md\":\"_OhZ6tBh\",\"posts_middle-of-2024.md\":\"CN7SJKk0\",\"posts_nginx-with-location.md\":\"C8YxJ4W7\",\"posts_node-best-practice.md\":\"BB4tHVAj\",\"posts_regexp.md\":\"DhkoZf_4\",\"posts_render-line.md\":\"CxTgWwJd\",\"posts_tech-and-content.md\":\"Dur_nBHe\",\"posts_ubuntu-app.md\":\"KYKjy-Kv\",\"posts_v2ray_nginx_https.md\":\"DVVP4j_e\",\"posts_vitepress-mismatch.md\":\"D9mveHbO\",\"posts_vue-reactivity.md\":\"COdIBmkd\",\"posts_vue-runtime-core.md\":\"D1ELBa48\",\"posts_vue-runtime-dom.md\":\"k0o7-8Yt\",\"readme.md\":\"C9p2ADPP\",\"search.md\":\"Dz0EQal0\",\"tags.md\":\"CdPtw2je\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"0x-Jerry\",\"titleTemplate\":\":title\",\"description\":\"A VitePress site\",\"base\":\"/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"name\":\"0x-Jerry\",\"avatar\":\"https://avatars.githubusercontent.com/u/14226737?v=4\",\"motto\":\"Life was like a box of chocolates. You never know what you're gonna get.\",\"email\":\"x.jerry.wang@gmail.com\",\"timezone\":\"Asia/Chongqing\",\"links\":{\"github\":\"https://github.com/0x-jerry\"}},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":true}");</script>
+    
+  
+</body></html>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
