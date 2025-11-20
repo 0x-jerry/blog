@@ -112,7 +112,7 @@ async function show() {
 
   elState.currentImg = el
 
-  resetCurrentImgStyle()
+  await resetCurrentImgStyle()
 
   contentEl.value.appendChild(el)
 }
@@ -126,7 +126,7 @@ async function hide() {
   elState.currentImg = null
 }
 
-function handlePrev() {
+async function handlePrev() {
   if (btnStatus.value.prev.disabled) {
     return
   }
@@ -138,6 +138,7 @@ function handlePrev() {
       currentImg.remove()
     })
 
+    await resetCurrentImgStyle()
     const transformStr = `translate(100%, -50%) scale(1) rotate(0deg)`
     currentImg.style.transform = transformStr
   }
@@ -151,14 +152,13 @@ function handlePrev() {
   elState.currentImg = el
   contentEl.value?.appendChild(el)
 
-  resetCurrentImgState()
-
   requestAnimationFrame(() => {
+    resetCurrentImgState()
     applyCurrentImageStyle()
   })
 }
 
-function handleNext() {
+async function handleNext() {
   if (btnStatus.value.next.disabled) {
     return
   }
@@ -170,6 +170,7 @@ function handleNext() {
       currentImg.remove()
     })
 
+    await resetCurrentImgStyle()
     const transformStr = `translate(-200%, -50%) scale(1) rotate(0deg)`
     currentImg.style.transform = transformStr
   }
@@ -183,20 +184,19 @@ function handleNext() {
   elState.currentImg = el
   contentEl.value?.appendChild(el)
 
-  resetCurrentImgState()
-
   requestAnimationFrame(() => {
+    resetCurrentImgState()
     applyCurrentImageStyle()
   })
 }
 
 function resetCurrentImgState() {
   elState.currentState.scale = 1
-  movementState.reset()
   elState.currentState.rotate = 0
+  movementState.reset()
 }
 
-function resetCurrentImgStyle() {
+async function resetCurrentImgStyle() {
   const img = elState.currentImg
   if (!img) return
 
@@ -204,11 +204,17 @@ function resetCurrentImgStyle() {
   img.style.transition = ''
   applyCurrentImageStyle()
 
+  const p = Promise.withResolvers<void>()
+
   requestAnimationFrame(() => {
     img.style.transition = 'transform .4s ease'
     resetCurrentImgState()
     applyCurrentImageStyle()
+
+    p.resolve()
   })
+
+  return p.promise;
 }
 
 function rotateImage(deg: number) {
