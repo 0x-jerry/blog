@@ -12,7 +12,9 @@ export function useMovement(opt?: UseMovementOptions) {
     y: 0,
   })
 
-  useEventListener(window, 'pointermove', (evt) => {
+  const target = globalThis.window
+
+  useEventListener(target, 'pointermove', (evt) => {
     if (!state.isMoving) return
 
     state.x += evt.movementX
@@ -21,11 +23,11 @@ export function useMovement(opt?: UseMovementOptions) {
     opt?.onUpdate?.()
   })
 
-  useEventListener(window, 'pointerup', () => {
+  useEventListener(target, 'pointerup', () => {
     state.isMoving = false
   })
 
-  useEventListener(window, 'pointerleave', () => {
+  useEventListener(target, 'pointerleave', () => {
     state.isMoving = false
   })
 
