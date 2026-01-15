@@ -6,7 +6,7 @@ const hitokoto = useAsyncData(fetchHitokoto, {})
 hitokoto.load()
 
 async function fetchHitokoto() {
-  const url = `https://0x-jerry.icu/api/hitokoto?t=${new Date().getTime()}`
+  const url = `https://0x-jerry.icu/api/hitokoto?t=${Date.now()}`
   const resp = await (await fetch(url)).json()
   return resp.data
 }
@@ -29,10 +29,10 @@ const from = computed(() => {
           </div>
         </div>
       </template>
-      <template v-else>
+      <div class="text-content" v-else>
         <p class="font-italic">「 {{ hitokoto.data.value?.hitokoto }} 」</p>
         <p class="text-right">--- {{ from }}</p>
-      </template>
+      </div>
     </div>
   </div>
 </template>
@@ -51,6 +51,12 @@ const from = computed(() => {
 
   &:nth-child(3n) {
     animation-delay: 200ms;
+  }
+}
+
+.v-sentence {
+  &::selection {
+    --uno: text-bPrimary-6;
   }
 }
 </style>
